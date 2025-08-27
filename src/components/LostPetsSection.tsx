@@ -16,6 +16,7 @@ const LostPetsSection = ({ t }) => {
         </motion.h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          {/* Texte + bouton */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -34,6 +35,7 @@ const LostPetsSection = ({ t }) => {
             </motion.button>
           </motion.div>
           
+          {/* Image */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -42,27 +44,11 @@ const LostPetsSection = ({ t }) => {
             className="relative"
           >
             <div className="bg-gray-200 h-80 rounded-xl overflow-hidden relative">
-              <motion.div
-                animate={{ y: [0, -10, 0] }}
-                transition={{ repeat: Infinity, duration: 3 }}
-                className="absolute top-1/4 left-1/4 text-4xl"
-              >
-                🐱
-              </motion.div>
-              <motion.div
-                animate={{ y: [0, -15, 0] }}
-                transition={{ repeat: Infinity, duration: 4, delay: 0.5 }}
-                className="absolute top-1/2 right-1/4 text-4xl"
-              >
-                🐶
-              </motion.div>
-              <motion.div
-                animate={{ y: [0, -8, 0] }}
-                transition={{ repeat: Infinity, duration: 3.5, delay: 1 }}
-                className="absolute bottom-1/4 left-1/3 text-4xl"
-              >
-                🐕
-              </motion.div>
+              <img 
+                src="https://www.woopets.fr/assets/img/008/914/og-image/sort-animaux-perdus.jpg" 
+                alt="Lost pets illustration"
+                className="w-full h-full object-cover"
+              />
             </div>
           </motion.div>
         </div>

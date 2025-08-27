@@ -8,21 +8,21 @@ const CommunityNewsSection = ({ t }) => {
       title: t('news.news1'),
       date: "15 Mars 2023",
       excerpt: t('news.news1Excerpt'),
-      image: "https://via.placeholder.com/400x250"
+      image: "https://static.lematin.ma/files/lematin/images/articles/2022/08/a81e3cb1443f45ffcb7cfaa6e326d75f.jpg"
     },
     {
       id: 2,
       title: t('news.news2'),
       date: "28 Février 2023",
       excerpt: t('news.news2Excerpt'),
-      image: "https://via.placeholder.com/400x250"
+      image: "https://i.ytimg.com/vi/hogdxgR6F0A/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAlsZNH-ulvzMvsOmgCR62tOqsPKg"
     },
     {
       id: 3,
       title: t('news.news3'),
       date: "10 Février 2023",
       excerpt: t('news.news3Excerpt'),
-      image: "https://via.placeholder.com/400x250"
+      image: "https://maroc-diplomatique.net/wp-content/uploads/2023/12/Surete-nationale.jpg"
     },
   ];
 

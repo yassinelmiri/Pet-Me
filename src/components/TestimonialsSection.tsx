@@ -8,7 +8,7 @@ const TestimonialsSection = ({ t }) => {
       name: "Karim B.",
       role: t('testimonials.user1Role'),
       content: t('testimonials.user1Text'),
-      avatar: "https://via.placeholder.com/80",
+      avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa-dhEC82mj96gmL3FGGLFi_BXv8fzL7pP0g&s",
       rating: 5
     },
     {
@@ -16,7 +16,7 @@ const TestimonialsSection = ({ t }) => {
       name: "Fatima Z.",
       role: t('testimonials.user2Role'),
       content: t('testimonials.user2Text'),
-      avatar: "https://via.placeholder.com/80",
+      avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlt6pTvGbCxFgBqf7XkzX4V_anpLzVyODfZA&s",
       rating: 4
     },
     {
@@ -24,7 +24,7 @@ const TestimonialsSection = ({ t }) => {
       name: "Mehdi T.",
       role: t('testimonials.user3Role'),
       content: t('testimonials.user3Text'),
-      avatar: "https://via.placeholder.com/80",
+      avatar: "https://static.wixstatic.com/media/696650_1ce021edd9a74cd9aad665e1377c00e8~mv2.jpg/v1/crop/x_16,y_0,w_3911,h_3944/fill/w_280,h_282,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/MKR09927-1%20copie.jpg",
       rating: 5
     },
   ];

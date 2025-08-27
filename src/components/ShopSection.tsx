@@ -4,10 +4,10 @@ import { ShoppingCartIcon } from '@heroicons/react/24/outline';
 
 const ShopSection = ({ t }) => {
   const products = [
-    { id: 1, name: t('shop.product1'), price: "120 MAD", image: "https://via.placeholder.com/200" },
-    { id: 2, name: t('shop.product2'), price: "85 MAD", image: "https://via.placeholder.com/200" },
-    { id: 3, name: t('shop.product3'), price: "200 MAD", image: "https://via.placeholder.com/200" },
-    { id: 4, name: t('shop.product4'), price: "45 MAD", image: "https://via.placeholder.com/200" },
+    { id: 1, name: t('shop.product1'), price: "120 MAD", image: "https://www.ultrapremiummaroc.ma/wp-content/uploads/2023/05/LG1201-new-1-500x500.webp" },
+    { id: 2, name: t('shop.product2'), price: "85 MAD", image: "https://animalux.ma/cdn/shop/files/WhatsAppImage2024-05-07at8.26.12PM_1a3dc834-0aba-4ea1-b6fc-03cd7be901b1_grande.jpg?v=1715158778" },
+    { id: 3, name: t('shop.product3'), price: "200 MAD", image: "https://griffedamour.com/cdn/shop/files/cage-de-transport-pour-chaton-4.webp?v=1751620781&width=1445" },
+    { id: 4, name: t('shop.product4'), price: "45 MAD", image: "https://cdn.youcan.shop/stores/6454b8d8f2276609289d331b8d3c212e/products/ioepr8kI37cdpSDkojW0AfcvkhcgQ0eImebd6u11.webp" },
   ];
 
   return (
